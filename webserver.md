@@ -16,7 +16,7 @@ Other [network protocols](https://www.techtarget.com/searchnetworking/feature/12
 |-----------------|  HTTP Response    Browser
    Server
 ````
-Client sends a request(URL) and the server(HANDLES URL) sends a response(FILE). 
+Client sends a request(URL) and the server(HANDLES URL) sends a response(FILE/ERROR). 
 
 ## Types of web servers
 
@@ -46,7 +46,7 @@ Client side programming
 presents the client with a UI(nicely designed interface) and forms it can fill to send requests to the server.
 
 Server side programming 
-Handles client requests by validating the forms and delivering the right resources(files/images/audio).
+handles client requests by validating the forms and delivering the right resources(files/images/audio).
 
     - Advantages 
         * Collect infomation / Deliver personalize data 
@@ -59,4 +59,14 @@ Handles client requests by validating the forms and delivering the right resourc
 POST and GET [requests/responses](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview) 
 
 
+Returning something other than HTML 
+[AJAX model](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX) - "allows the browser to communicate with the server to exchange and update date without having to reload the page" - MDN
 
+
+
+Web Frameworks 
+* Make it easy to handle client request
+* They provide an abstraction to work with databases
+    - ORM(OBJECT-RELATIONAL-MAPPER)
+        + Help sanitize user input 
+        + Speed up the query process
