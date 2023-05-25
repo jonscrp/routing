@@ -28,6 +28,10 @@ Dynamic (Examples:Wikepedia and MDN)
 delivers  index.pug files(templates) // files that can be populated with different data
 - Hardware+ application server + database
 
+Static and Dynamic Server requests handling
+
+![alt text](web_application_with_html_and_steps_image_from_mdn.png)
+
 
 Hosting Files 
     Dedicated web server 
