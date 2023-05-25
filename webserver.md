@@ -8,14 +8,14 @@ Managage user requests (HTTP server)
 
 https://www.techtarget.com/searchnetworking/feature/12-common-network-protocols-and-their-functions-explained
 
-
+```
 |-----------------|   HTTP Request
 |   (Files)       | <------------- |--------|
 |                 |                | Client |  
 |  ( HTTP server) | ------------>  |--------|
 |-----------------|  HTTP Response    Browser
    Server
-
+````
 Client sends a request(URL) and the server(HANDLES URL) sends a response(FILE). 
 
 Types of web servers
