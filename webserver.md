@@ -99,9 +99,7 @@ Three-legged OAuth flow
 
 using googles sheets to store and retrieve content
 
-[Creating credentials](https://developers.google.com/workspace/guides/create-credentials)
-
+[Creating credentials](https://developers.google.com/workspace/guides/create-credentials) - gives a json file with client_id and redirect_uri
 [Oauth Steps](https://developers.google.com/identity/protocols/oauth2)
-
-
-
+[sheets scopes](https://developers.google.com/sheets/api/guides/values) - scope
+[gitignore](https://www.freecodecamp.org/news/gitignore-file-how-to-ignore-files-and-folders-in-git/)
